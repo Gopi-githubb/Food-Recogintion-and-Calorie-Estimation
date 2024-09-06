@@ -4,3 +4,4 @@ trying new thing with commit
 take intput from user
 and just tring new thing
 hello im gopi
+the main
