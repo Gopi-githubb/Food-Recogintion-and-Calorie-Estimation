@@ -63,9 +63,9 @@ The food recognition model is based on the ResNet-50 architecture, trained on th
 -	Batch size: 32
 -	Epochs: 25
 
-## Model Performance
-Accuracy: 85% on the test dataset
-Example input and Output:
+**Model Performance**
+Accuracy:85% on the test dataset
+-  Example input and Output:
 -	Input: Image of a pizza
 -	Output: Pizza, 285 calories per slice
 
