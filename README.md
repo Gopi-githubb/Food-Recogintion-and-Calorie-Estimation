@@ -38,7 +38,6 @@ To set up the project, follow these steps:
 - Pandas
 - Matplotlib
 - scikit-learn
-- etc. (list any other dependencies)
 
 ## Usage
 Once the dependencies are installed, you can run the project as follows:
