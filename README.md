@@ -1,3 +1,4 @@
+
 # Food Recognition and Calorie Estimation using AI and Image Processing
 
 ## Abstract
@@ -41,9 +42,8 @@ The food recognition model is based on the ResNet-50 architecture, trained on th
 -	Learning rate: 0.001
 -	Batch size: 32
 -	Epochs: 25
-Results
+Results..
 The model achieved an accuracy of 85% on the test dataset. Example of an input and output:
-
 -	Input: Image of a pizza
 -	Output: Pizza, 285 calories per slice
 
