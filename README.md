@@ -53,6 +53,6 @@ If you’d like to contribute to this project, feel free to fork the repository 
 This project is licensed under the MIT License.  See the LICENSE file for more details.
 
 ## Contact Information
-Maintainer: [GopiChand]((https://github.com/Gopi-githubb)
+Maintainer: [GopiChand](https://github.com/Gopi-githubb)
 
 
