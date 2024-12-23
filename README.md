@@ -37,12 +37,15 @@ Once the dependencies are installed, you can run the project as follows:
 
 ## Dataset
 This project uses the Food-101 dataset which contains 101 categories of food with 1000 images per category. Preprocessing includes resizing images to 224x224 pixels and augmenting them for better model generalization.
+
 Model Training..
 The food recognition model is based on the ResNet-50 architecture, trained on the Food-101 dataset with the following settings:
 -	Learning rate: 0.001
 -	Batch size: 32
 -	Epochs: 25
+
 Results..
+
 The model achieved an accuracy of 85% on the test dataset. Example of an input and output:
 -	Input: Image of a pizza
 -	Output: Pizza, 285 calories per slice
@@ -54,10 +57,16 @@ If you’d like to contribute to this project, feel free to fork the repository 
 This project is licensed under the MIT License.  See the LICENSE file for more details.
 
 ## Contact Information
+
 **Maintainers**:  
 - [GopiChand](https://github.com/Gopi-githubb)  
-- [Sujal](https://github.com/Sujal-Bangari)
-- [Mahathi]
-- [Pranab] 
+- [Sujal](https://github.com/Sujal-Bangari)  
+- [Mahathi] 
+- [Pranab]
 
+This project is a collaborative effort by students at **Sreyas Institute of Engineering and Technology**. For more information about the college, visit [Sreyas Institute of Engineering and Technology](https://sreyas.ac.in/). 
+
+Feel free to reach out to us through the GitHub links above for any questions or contributions.
+
+---
 
