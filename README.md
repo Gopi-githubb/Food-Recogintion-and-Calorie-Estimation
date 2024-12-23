@@ -38,15 +38,14 @@ Once the dependencies are installed, you can run the project as follows:
 This project uses the Food-101 dataset which contains 101 categories of food with 1000 images per category. Preprocessing includes resizing images to 224x224 pixels and augmenting them for better model generalization.
 Model Training..
 The food recognition model is based on the ResNet-50 architecture, trained on the Food-101 dataset with the following settings:
-
-•	Learning rate: 0.001
-•	Batch size: 32
-•	Epochs: 25
+-	Learning rate: 0.001
+-	Batch size: 32
+-	Epochs: 25
 Results
 The model achieved an accuracy of 85% on the test dataset. Example of an input and output:
 
-•	Input: Image of a pizza
-•	Output: Pizza, 285 calories per slice
+-	Input: Image of a pizza
+-	Output: Pizza, 285 calories per slice
 
 ## Contributing
 If you’d like to contribute to this project, feel free to fork the repository and submit a pull request with a detailed description of your changes.
