@@ -2,20 +2,20 @@
 # Food Recognition and Calorie Estimation using AI and Image Processing
 
 ## Abstract
-This project explores the use of artificial intelligence and image processing to classify food items and estimate their calorie content. It leverages deep learning techniques, specifically convolutional neural networks (CNNs), to perform image classification, and incorporates a nutritional database to provide accurate calorie estimation based on portion size. This system can assist individuals in tracking their food intake, contributing to healthier lifestyle choices.
+This project explores the integration of artificial intelligence (AI) and image processing to automatically recognize food items and estimate their calorie content. Using deep learning techniques, specifically convolutional neural networks (CNNs), the system classifies food items based on images and estimates their calories by referencing a nutritional database. This tool can assist users in tracking their food intake, thereby promoting healthier lifestyle choices.
 
 ## Description
-This project uses artificial intelligence and image processing to recognize food items from images and estimate their calorie content. It leverages convolutional neural networks (CNNs) to classify food and uses a nutritional database to calculate approximate calorie values. The system aims to help users easily track their food intake for better health management.
+This system employs AI and image processing to detect food items from images and provide accurate calorie estimates. By leveraging convolutional neural networks (CNNs) for image classification and a nutritional database to calculate calorie values, the project aims to offer a seamless way for users to track their daily food intake. The system also estimates portion sizes based on image scaling, ensuring more accurate calorie computations.
 
 ## Features
-- Automated food recognition from images.
-- Estimation of calories based on portion sizes.
-- Supports various food categories (fruits, vegetables, fast food, etc.).
-- Integration with a nutritional database for calorie estimation.
-- Real-time recognition of food items via a camera feed.
-- User interface for uploading images and displaying recognition results.
-- Portion size estimation based on image scaling.
-- Can be extended to mobile applications for on-the-go recognition and calorie tracking.
+- **Automated Food Recognition:** Recognizes food items from uploaded images.
+- **Calorie Estimation:** Estimates calorie content based on recognized food items and portion sizes.
+- **Wide Food Categorization:** Supports various food categories such as fruits, vegetables, fast food, etc.
+- **Nutritional Database Integration:** Uses a database to calculate calorie values.
+- **Real-Time Recognition:** Allows food detection via camera feed.
+- **User Interface:** Upload images and display results with an intuitive interface.
+- **Portion Size Estimation:** Adjusts calorie estimates according to portion size.
+- **Mobile Extension:** Potential to extend the system to mobile apps for calorie tracking on-the-go.
 
 ## Installation
 To set up the project, follow these steps:
