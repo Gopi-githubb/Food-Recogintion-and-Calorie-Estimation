@@ -28,6 +28,18 @@ To set up the project, follow these steps:
 4.	Install the required dependencies:
    pip install -r requirements.txt
 
+## Requirements
+- Python 3.x
+- Flask
+- TensorFlow 2.x
+- OpenCV
+- NumPy
+- Pillow
+- Pandas
+- Matplotlib
+- scikit-learn
+- etc. (list any other dependencies)
+
 ## Usage
 Once the dependencies are installed, you can run the project as follows:
 1.	To recognize food from an image:
