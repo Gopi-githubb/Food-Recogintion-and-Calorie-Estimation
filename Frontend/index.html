@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="KnowYourCalories is a platform for tracking calorie intake and providing dietary suggestions using AI-powered food recognition and calorie estimation.">
+    <meta property="og:title" content="KnowYourCalories - Track Your Calorie Intake">
+    <meta property="og:description" content="Track your calorie intake with AI-powered food recognition and personalized dietary suggestions.">
+    <meta property="og:image" content="path_to_image.jpg">
+    <meta property="og:url" content="https://www.knowyourcalories.com">
+    <meta name="twitter:card" content="summary_large_image">
     <title>KnowYourCalories.com</title>
     <link rel="icon" href="Images/fruit-bowl-svgrepo-com.svg" type="image/svg+xml">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -11,30 +16,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <div class="navbar">
+    <header class="navbar">
         <a href="#home" class="logo"><i class="fas fa-apple-alt"></i> KnowYourCalories.com</a>
-        <div class="menu">
+        <nav class="menu" aria-label="Main Menu">
             <a href="#home"><i class="fas fa-home"></i> Home</a>
             <a href="#track-calories"><i class="fas fa-utensils"></i> Track Calories</a>
             <a href="#diet-plans"><i class="fas fa-dumbbell"></i> Diet Plans</a>
             <a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <!-- Centered Upload Section -->
     <div class="upload-container">
-        <div class="upload" onclick="document.getElementById('file-input').click()">
+        <div class="upload" id="upload-section">
             <input type="file" id="file-input" accept="image/*" onchange="previewImage(event)">
-            <img class="icon" src="Images/image-pen-svgrepo-com.svg" alt="Upload Icon" />
+            <img class="icon" src="Images/image-pen-svgrepo-com.svg" alt="Upload Icon">
             <div class="mesg">Click on the icon to choose a photo to know calorie content</div>
         </div>
-        <!-- Image Preview Section -->
         <div id="image-preview" style="display:none; margin-top: 20px;">
             <img id="preview-img" src="" alt="Image Preview" style="max-width: 300px; max-height: 300px; border-radius: 10px;">
         </div>
     </div>
 
-    <!-- Hero Section -->
     <div class="hero" id="home">
         <h1>Take Control of Your Health</h1>
         <p>Track your calorie intake, recognize food items, and improve your diet today.</p>
@@ -64,14 +66,19 @@
         </div>
     </div>
 
-    <div class="footer" id="contact">
+    <footer class="footer" id="contact">
         <p>&copy; 2024 KnowYourCalories | All Rights Reserved</p>
         <div class="contact-us">
             <p>If you have any questions or need assistance, feel free to contact us:</p>
             <p>Email: <a href="mailto:KnowYourCalorie@gmail.com">KnowYourCalorie@gmail.com</a></p>
             <p>Phone: 9949 XXXX XX</p>
         </div>
-    </div>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
 
     <script src="main.js"></script>
 </body>
