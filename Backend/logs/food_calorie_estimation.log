@@ -1,0 +1,551 @@
+2025-01-02 23:33:42,563 - INFO - Model loaded successfully.
+2025-01-02 23:33:45,488 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-02 23:33:45,547 - WARNING -  * Debugger is active!
+2025-01-02 23:33:45,550 - INFO -  * Debugger PIN: 115-152-079
+2025-01-02 23:34:33,040 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\calorie_estimation.py', reloading
+2025-01-02 23:34:46,875 - INFO - Model loaded successfully.
+2025-01-02 23:34:52,205 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-02 23:34:52,246 - WARNING -  * Debugger is active!
+2025-01-02 23:34:52,250 - INFO -  * Debugger PIN: 115-152-079
+2025-01-02 23:34:59,684 - INFO - 127.0.0.1 - - [02/Jan/2025 23:34:59] "GET / HTTP/1.1" 200 -
+2025-01-02 23:34:59,893 - INFO - 127.0.0.1 - - [02/Jan/2025 23:34:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-02 23:34:59,895 - INFO - 127.0.0.1 - - [02/Jan/2025 23:34:59] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-02 23:34:59,895 - INFO - 127.0.0.1 - - [02/Jan/2025 23:34:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-02 23:34:59,943 - INFO - 127.0.0.1 - - [02/Jan/2025 23:34:59] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:34:59,943 - INFO - 127.0.0.1 - - [02/Jan/2025 23:34:59] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:34:59,950 - INFO - 127.0.0.1 - - [02/Jan/2025 23:34:59] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:34:59,952 - INFO - 127.0.0.1 - - [02/Jan/2025 23:34:59] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:35:00,250 - INFO - 127.0.0.1 - - [02/Jan/2025 23:35:00] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-02 23:35:04,713 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-02 23:35:04,715 - INFO - 127.0.0.1 - - [02/Jan/2025 23:35:04] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-02 23:39:54,524 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:54] "GET / HTTP/1.1" 200 -
+2025-01-02 23:39:54,545 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-02 23:39:54,550 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:54] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:54,566 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:54] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:54,566 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:54] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:54,570 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:54] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:54,574 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:54] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:54,577 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:54] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-01-02 23:39:55,538 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:55] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:57,558 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "GET / HTTP/1.1" 200 -
+2025-01-02 23:39:57,575 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-02 23:39:57,579 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:57,580 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-02 23:39:57,602 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:57,602 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:57,604 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:57,609 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:39:57,612 - INFO - 127.0.0.1 - - [02/Jan/2025 23:39:57] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:40:07,525 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-02 23:40:07,526 - INFO - 127.0.0.1 - - [02/Jan/2025 23:40:07] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-02 23:42:19,806 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-02 23:42:34,187 - INFO - Model loaded successfully.
+2025-01-02 23:42:37,729 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-02 23:42:37,803 - WARNING -  * Debugger is active!
+2025-01-02 23:42:37,817 - INFO -  * Debugger PIN: 115-152-079
+2025-01-02 23:42:45,772 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:45] "GET / HTTP/1.1" 200 -
+2025-01-02 23:42:45,942 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:45] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-02 23:42:45,944 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-02 23:42:45,946 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-02 23:42:45,993 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:45] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:42:45,995 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:45] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:42:45,999 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:45] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:42:46,003 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:46] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-02 23:42:46,438 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:46] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-02 23:42:50,424 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-02 23:42:50,425 - INFO - 127.0.0.1 - - [02/Jan/2025 23:42:50] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-02 23:44:26,907 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\test_model.py', reloading
+2025-01-02 23:44:40,134 - INFO - Model loaded successfully.
+2025-01-02 23:44:43,266 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-02 23:44:43,354 - WARNING -  * Debugger is active!
+2025-01-02 23:44:43,354 - INFO -  * Debugger PIN: 115-152-079
+2025-01-02 23:45:19,863 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\test_model.py', reloading
+2025-01-03 00:00:36,040 - INFO - Model loaded successfully.
+2025-01-03 00:00:39,314 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:00:39,534 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 00:00:39,537 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 00:00:39,543 - INFO -  * Restarting with stat
+2025-01-03 00:01:12,738 - INFO - Model loaded successfully.
+2025-01-03 00:01:20,734 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:01:21,710 - WARNING -  * Debugger is active!
+2025-01-03 00:01:21,760 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:01:32,526 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:32] "GET / HTTP/1.1" 200 -
+2025-01-03 00:01:32,785 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:01:32,794 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:32] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:01:32,794 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:01:32,880 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:32] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:01:32,883 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:32] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:01:32,892 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:32] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:01:32,898 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:32] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:01:41,465 - INFO - Predicted: Unknown with confidence: 0.99
+2025-01-03 00:01:41,465 - INFO - 127.0.0.1 - - [03/Jan/2025 00:01:41] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:05:18,444 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\food_recognition.py', reloading
+2025-01-03 00:05:21,247 - INFO -  * Restarting with stat
+2025-01-03 00:05:37,510 - INFO - Model loaded successfully.
+2025-01-03 00:05:41,122 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:05:41,173 - WARNING -  * Debugger is active!
+2025-01-03 00:05:41,183 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:05:57,501 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\food_recognition.py', reloading
+2025-01-03 00:06:00,114 - INFO -  * Restarting with stat
+2025-01-03 00:06:14,633 - INFO - Model loaded successfully.
+2025-01-03 00:06:18,396 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:06:18,423 - WARNING -  * Debugger is active!
+2025-01-03 00:06:18,427 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:06:46,869 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\calorie_estimation.py', reloading
+2025-01-03 00:06:48,811 - INFO -  * Restarting with stat
+2025-01-03 00:07:01,035 - INFO - Model loaded successfully.
+2025-01-03 00:07:05,248 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:07:05,277 - WARNING -  * Debugger is active!
+2025-01-03 00:07:05,282 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:07:09,392 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:09] "GET / HTTP/1.1" 200 -
+2025-01-03 00:07:09,679 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:07:09,681 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:09] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:07:09,685 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:07:09,744 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:09] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:07:09,748 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:09] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:07:09,751 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:09] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:07:09,758 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:09] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:07:10,840 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:10] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:07:14,920 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 00:07:14,921 - INFO - 127.0.0.1 - - [03/Jan/2025 00:07:14] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:09:42,281 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 00:09:45,026 - INFO -  * Restarting with stat
+2025-01-03 00:10:01,066 - INFO - Model loaded successfully.
+2025-01-03 00:10:07,994 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:10:08,098 - WARNING -  * Debugger is active!
+2025-01-03 00:10:08,116 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:10:33,737 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\calorie_estimation.py', reloading
+2025-01-03 00:10:36,240 - INFO -  * Restarting with stat
+2025-01-03 00:10:50,615 - INFO - Model loaded successfully.
+2025-01-03 00:10:54,908 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:10:54,939 - WARNING -  * Debugger is active!
+2025-01-03 00:10:54,942 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:11:00,966 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:00] "GET / HTTP/1.1" 200 -
+2025-01-03 00:11:01,296 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:11:01,310 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:01] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:11:01,312 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:11:01,380 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:01] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:11:01,380 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:01] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:11:01,394 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:01] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:11:01,396 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:01] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:11:01,986 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:01] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:11:09,099 - INFO - Predicted: Unknown with confidence: 0.42
+2025-01-03 00:11:09,100 - INFO - 127.0.0.1 - - [03/Jan/2025 00:11:09] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:14:24,297 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 00:14:27,905 - INFO -  * Restarting with stat
+2025-01-03 00:14:41,150 - INFO - Model loaded successfully.
+2025-01-03 00:14:44,642 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:14:44,708 - WARNING -  * Debugger is active!
+2025-01-03 00:14:44,712 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:14:55,013 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:55] "GET / HTTP/1.1" 200 -
+2025-01-03 00:14:55,215 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:55] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:14:55,227 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:14:55,230 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:14:55,276 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:55] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:14:55,282 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:55] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:14:55,287 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:55] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:14:55,290 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:55] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:14:56,354 - INFO - 127.0.0.1 - - [03/Jan/2025 00:14:56] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:15:00,557 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 00:15:00,557 - INFO - 127.0.0.1 - - [03/Jan/2025 00:15:00] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:16:55,655 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 00:16:59,932 - INFO -  * Restarting with stat
+2025-01-03 00:17:14,273 - INFO - Model loaded successfully.
+2025-01-03 00:17:17,340 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:17:17,372 - WARNING -  * Debugger is active!
+2025-01-03 00:17:17,372 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:17:37,345 - INFO - Predicted: Unknown with confidence: 0.99
+2025-01-03 00:17:37,346 - INFO - 127.0.0.1 - - [03/Jan/2025 00:17:37] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:17:49,431 - INFO - 127.0.0.1 - - [03/Jan/2025 00:17:49] "GET /login HTTP/1.1" 200 -
+2025-01-03 00:17:49,590 - INFO - 127.0.0.1 - - [03/Jan/2025 00:17:49] "[36mGET /static/css/style_for_loginPage.css HTTP/1.1[0m" 304 -
+2025-01-03 00:17:49,590 - INFO - 127.0.0.1 - - [03/Jan/2025 00:17:49] "[36mGET /static/images/newww.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:17:49,590 - INFO - 127.0.0.1 - - [03/Jan/2025 00:17:49] "[36mGET /static/js/login_main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:18:02,151 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:02] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-01-03 00:18:02,238 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:02] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-01-03 00:18:02,455 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:02] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-01-03 00:18:02,458 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:02] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-01-03 00:18:02,629 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:02] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-03 00:18:02,640 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:02] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-03 00:18:02,730 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:02] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=uDwnsH4Y5bXJHmrzcDSP HTTP/1.1" 200 -
+2025-01-03 00:18:02,749 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:02] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-03 00:18:04,065 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:04] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-01-03 00:18:04,084 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:04] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-01-03 00:18:04,137 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:04] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=uDwnsH4Y5bXJHmrzcDSP HTTP/1.1" 200 -
+2025-01-03 00:18:04,158 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-01-03 00:18:05,110 - INFO - 127.0.0.1 - - [03/Jan/2025 00:18:05] "GET / HTTP/1.1" 200 -
+2025-01-03 00:19:00,833 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\load_vgg16_model.py', reloading
+2025-01-03 00:19:04,448 - INFO -  * Restarting with stat
+2025-01-03 00:19:17,283 - INFO - Model loaded successfully.
+2025-01-03 00:19:21,355 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:19:21,426 - WARNING -  * Debugger is active!
+2025-01-03 00:19:21,440 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:23:59,691 - INFO - Model loaded successfully.
+2025-01-03 00:24:02,567 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:24:02,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 00:24:02,629 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 00:24:02,633 - INFO -  * Restarting with stat
+2025-01-03 00:24:33,284 - INFO - Model loaded successfully.
+2025-01-03 00:24:40,495 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:24:40,777 - WARNING -  * Debugger is active!
+2025-01-03 00:24:40,840 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:24:51,051 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:51] "GET / HTTP/1.1" 200 -
+2025-01-03 00:24:51,315 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:24:51,317 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:24:51,422 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:51] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:24:51,426 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:51] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:24:51,435 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:51] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:24:51,448 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:51] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:24:51,644 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:51] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:24:52,961 - INFO - 127.0.0.1 - - [03/Jan/2025 00:24:52] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:25:00,143 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 00:25:00,143 - INFO - 127.0.0.1 - - [03/Jan/2025 00:25:00] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:30:06,736 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 00:30:09,585 - INFO -  * Restarting with stat
+2025-01-03 00:30:25,001 - INFO - Model loaded successfully.
+2025-01-03 00:30:31,143 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:30:31,216 - WARNING -  * Debugger is active!
+2025-01-03 00:30:31,228 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:31:07,762 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:07] "GET / HTTP/1.1" 200 -
+2025-01-03 00:31:08,018 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:08] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:31:08,018 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:08] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-01-03 00:31:08,020 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:31:08,083 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:08] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:31:08,086 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:08] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:31:08,089 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:08] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:31:08,092 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:08] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:31:09,771 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:09] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:31:14,188 - INFO - Predicted: Unknown with confidence: 0.42
+2025-01-03 00:31:14,188 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:14] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:31:21,994 - INFO - Predicted: Unknown with confidence: 0.99
+2025-01-03 00:31:21,996 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:21] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:31:27,778 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 00:31:27,779 - INFO - 127.0.0.1 - - [03/Jan/2025 00:31:27] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:33:45,829 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 00:33:48,939 - INFO -  * Restarting with stat
+2025-01-03 00:34:02,512 - INFO - Model loaded successfully.
+2025-01-03 00:34:05,542 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:34:05,666 - WARNING -  * Debugger is active!
+2025-01-03 00:34:05,673 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:35:19,928 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 00:35:22,594 - INFO -  * Restarting with stat
+2025-01-03 00:35:35,376 - INFO - Model loaded successfully.
+2025-01-03 00:35:38,368 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:35:38,416 - WARNING -  * Debugger is active!
+2025-01-03 00:35:38,430 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:35:57,488 - INFO - 127.0.0.1 - - [03/Jan/2025 00:35:57] "GET / HTTP/1.1" 200 -
+2025-01-03 00:35:57,674 - INFO - 127.0.0.1 - - [03/Jan/2025 00:35:57] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:35:57,677 - INFO - 127.0.0.1 - - [03/Jan/2025 00:35:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:35:57,677 - INFO - 127.0.0.1 - - [03/Jan/2025 00:35:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:35:57,752 - INFO - 127.0.0.1 - - [03/Jan/2025 00:35:57] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:35:57,762 - INFO - 127.0.0.1 - - [03/Jan/2025 00:35:57] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:35:57,765 - INFO - 127.0.0.1 - - [03/Jan/2025 00:35:57] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:35:57,771 - INFO - 127.0.0.1 - - [03/Jan/2025 00:35:57] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:36:06,556 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 00:36:06,557 - INFO - 127.0.0.1 - - [03/Jan/2025 00:36:06] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:42:32,229 - INFO - Model loaded successfully.
+2025-01-03 00:42:49,630 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:42:49,811 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 00:42:49,811 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 00:42:49,820 - INFO -  * Restarting with stat
+2025-01-03 00:43:21,258 - INFO - Model loaded successfully.
+2025-01-03 00:43:35,619 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:43:35,889 - WARNING -  * Debugger is active!
+2025-01-03 00:43:35,936 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:43:43,058 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:43] "GET / HTTP/1.1" 200 -
+2025-01-03 00:43:43,391 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:43:43,391 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:43] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:43:43,393 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:43:43,454 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:43] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:43:43,474 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:43] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:43:43,474 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:43] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:43:43,477 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:43] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:43:44,598 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:44] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:43:49,146 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 00:43:49,147 - INFO - 127.0.0.1 - - [03/Jan/2025 00:43:49] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:45:48,639 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 00:45:51,359 - INFO -  * Restarting with stat
+2025-01-03 00:46:07,367 - INFO - Model loaded successfully.
+2025-01-03 00:46:10,448 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:46:10,483 - WARNING -  * Debugger is active!
+2025-01-03 00:46:10,489 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 00:46:18,867 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:18] "GET / HTTP/1.1" 200 -
+2025-01-03 00:46:19,099 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 00:46:19,101 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 00:46:19,101 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:19] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:46:19,137 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:19] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:46:19,142 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:19] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:46:19,145 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:19] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:46:19,154 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:19] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 00:46:19,193 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:19] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 00:46:29,471 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 00:46:29,471 - INFO - 127.0.0.1 - - [03/Jan/2025 00:46:29] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 00:48:16,210 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 00:48:19,519 - INFO -  * Restarting with stat
+2025-01-03 00:48:34,353 - INFO - Model loaded successfully.
+2025-01-03 00:48:36,796 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 00:48:36,831 - WARNING -  * Debugger is active!
+2025-01-03 00:48:36,835 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 09:09:31,647 - INFO - Model loaded successfully.
+2025-01-03 09:09:36,184 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 09:09:36,377 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 09:09:36,377 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 09:09:36,391 - INFO -  * Restarting with stat
+2025-01-03 09:09:59,037 - INFO - Model loaded successfully.
+2025-01-03 09:10:03,244 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 09:10:03,357 - WARNING -  * Debugger is active!
+2025-01-03 09:10:03,376 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 09:10:39,037 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:39] "GET / HTTP/1.1" 200 -
+2025-01-03 09:10:39,281 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:39] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 09:10:39,281 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 09:10:39,284 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 09:10:39,354 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:39] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:10:39,358 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:39] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:10:39,367 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:39] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:10:39,369 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:39] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:10:46,948 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 09:10:46,949 - INFO - 127.0.0.1 - - [03/Jan/2025 09:10:46] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 09:17:45,573 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\test_model.py', reloading
+2025-01-03 09:17:48,826 - INFO -  * Restarting with stat
+2025-01-03 09:26:00,321 - INFO - Model loaded successfully.
+2025-01-03 09:26:03,800 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 09:26:03,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 09:26:03,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 09:26:03,882 - INFO -  * Restarting with stat
+2025-01-03 09:26:39,080 - INFO - Model loaded successfully.
+2025-01-03 09:26:49,533 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 09:26:49,785 - WARNING -  * Debugger is active!
+2025-01-03 09:26:49,820 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 09:43:58,524 - INFO - 127.0.0.1 - - [03/Jan/2025 09:43:58] "GET / HTTP/1.1" 200 -
+2025-01-03 09:43:58,741 - INFO - 127.0.0.1 - - [03/Jan/2025 09:43:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 09:43:58,751 - INFO - 127.0.0.1 - - [03/Jan/2025 09:43:58] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 09:43:58,757 - INFO - 127.0.0.1 - - [03/Jan/2025 09:43:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 09:43:58,824 - INFO - 127.0.0.1 - - [03/Jan/2025 09:43:58] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:43:58,824 - INFO - 127.0.0.1 - - [03/Jan/2025 09:43:58] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:43:58,824 - INFO - 127.0.0.1 - - [03/Jan/2025 09:43:58] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:43:58,840 - INFO - 127.0.0.1 - - [03/Jan/2025 09:43:58] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:44:06,296 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 09:44:06,296 - INFO - 127.0.0.1 - - [03/Jan/2025 09:44:06] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 09:47:07,449 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 09:47:10,401 - INFO -  * Restarting with stat
+2025-01-03 09:47:34,184 - INFO - Model loaded successfully.
+2025-01-03 09:47:38,829 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 09:47:39,125 - WARNING -  * Debugger is active!
+2025-01-03 09:47:39,142 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 09:48:05,879 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:05] "GET / HTTP/1.1" 200 -
+2025-01-03 09:48:06,206 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 09:48:06,206 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:06] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 09:48:06,235 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 09:48:06,281 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:06] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:48:06,286 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:06] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:48:06,296 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:06] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:48:06,296 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:06] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:48:07,899 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:07] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 09:48:12,426 - INFO - Predicted: Unknown with confidence: 0.71
+2025-01-03 09:48:12,427 - INFO - 127.0.0.1 - - [03/Jan/2025 09:48:12] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 09:50:09,669 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\food_recognition.py', reloading
+2025-01-03 09:50:12,134 - INFO -  * Restarting with stat
+2025-01-03 09:50:25,654 - INFO - Model loaded successfully.
+2025-01-03 09:50:28,543 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 09:50:28,672 - WARNING -  * Debugger is active!
+2025-01-03 09:50:28,672 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 09:53:18,646 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:18] "GET / HTTP/1.1" 200 -
+2025-01-03 09:53:19,089 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 09:53:19,091 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:19] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 09:53:19,094 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 09:53:19,115 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:19] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:53:19,119 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:19] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:53:19,133 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:19] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:53:19,137 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:19] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 09:53:20,637 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:20] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 09:53:24,434 - INFO - Predicted: Unknown with confidence: 0.99
+2025-01-03 09:53:24,434 - INFO - 127.0.0.1 - - [03/Jan/2025 09:53:24] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 09:56:07,205 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\food_recognition.py', reloading
+2025-01-03 09:56:09,824 - INFO -  * Restarting with stat
+2025-01-03 10:16:39,126 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 10:16:39,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 10:16:39,430 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 10:16:39,447 - INFO -  * Restarting with stat
+2025-01-03 10:17:22,436 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 10:17:23,362 - WARNING -  * Debugger is active!
+2025-01-03 10:17:23,497 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 10:17:51,017 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "GET / HTTP/1.1" 200 -
+2025-01-03 10:17:51,221 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 10:17:51,224 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 10:17:51,224 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 10:17:51,254 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 10:17:51,256 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 10:17:51,258 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 10:17:51,267 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 10:17:51,415 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:51] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 10:17:56,112 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 10:17:56,112 - INFO - 127.0.0.1 - - [03/Jan/2025 10:17:56] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 11:02:40,902 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:02:41,070 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 11:02:41,070 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 11:02:41,082 - INFO -  * Restarting with stat
+2025-01-03 11:03:32,505 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:03:42,000 - WARNING -  * Debugger is active!
+2025-01-03 11:03:42,030 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 11:04:19,648 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:19] "GET / HTTP/1.1" 200 -
+2025-01-03 11:04:19,881 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 11:04:19,884 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 11:04:19,884 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:19] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 11:04:19,964 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:19] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:04:19,968 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:19] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:04:19,977 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:19] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:04:19,980 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:19] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:04:29,899 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 11:04:29,901 - INFO - 127.0.0.1 - - [03/Jan/2025 11:04:29] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 11:05:17,299 - INFO - 127.0.0.1 - - [03/Jan/2025 11:05:17] "GET /login HTTP/1.1" 200 -
+2025-01-03 11:05:17,387 - INFO - 127.0.0.1 - - [03/Jan/2025 11:05:17] "[36mGET /static/css/style_for_loginPage.css HTTP/1.1[0m" 304 -
+2025-01-03 11:05:17,400 - INFO - 127.0.0.1 - - [03/Jan/2025 11:05:17] "[36mGET /static/images/newww.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:05:17,444 - INFO - 127.0.0.1 - - [03/Jan/2025 11:05:17] "[36mGET /static/js/login_main.js HTTP/1.1[0m" 304 -
+2025-01-03 11:05:17,479 - INFO - 127.0.0.1 - - [03/Jan/2025 11:05:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 11:05:27,148 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 11:05:27,148 - INFO - 127.0.0.1 - - [03/Jan/2025 11:05:27] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 11:15:38,140 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:15:38,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 11:15:38,324 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 11:15:38,338 - INFO -  * Restarting with stat
+2025-01-03 11:16:23,123 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:16:23,401 - WARNING -  * Debugger is active!
+2025-01-03 11:16:23,437 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 11:16:47,135 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:47] "GET / HTTP/1.1" 200 -
+2025-01-03 11:16:47,440 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 11:16:47,451 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:47] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 11:16:47,452 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 11:16:47,631 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:47] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:16:47,635 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:47] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:16:47,642 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:47] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:16:47,645 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:47] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:16:57,660 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 11:16:57,661 - INFO - 127.0.0.1 - - [03/Jan/2025 11:16:57] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 11:18:41,905 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:41] "GET / HTTP/1.1" 200 -
+2025-01-03 11:18:41,937 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 11:18:41,941 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:41] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 11:18:41,973 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-01-03 11:18:42,587 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:42] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:18:42,595 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:42] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:18:42,607 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:42] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:18:42,609 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:42] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:18:42,611 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:42] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 11:18:46,959 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 11:18:46,961 - INFO - 127.0.0.1 - - [03/Jan/2025 11:18:46] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 11:19:17,602 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:19:17,663 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 11:19:17,664 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 11:19:17,667 - INFO -  * Restarting with stat
+2025-01-03 11:19:59,078 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:20:00,213 - WARNING -  * Debugger is active!
+2025-01-03 11:20:00,254 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 11:20:53,807 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 11:20:57,486 - INFO -  * Restarting with stat
+2025-01-03 11:21:19,138 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:21:19,214 - WARNING -  * Debugger is active!
+2025-01-03 11:21:19,238 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 11:21:37,319 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:37] "GET / HTTP/1.1" 200 -
+2025-01-03 11:21:37,625 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:37] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 11:21:37,633 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 11:21:37,635 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 11:21:37,751 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:37] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:21:37,756 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:37] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:21:37,773 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:37] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:21:37,774 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:37] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:21:43,730 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 11:21:43,731 - INFO - 127.0.0.1 - - [03/Jan/2025 11:21:43] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 11:32:44,343 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:32:44,704 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 11:32:44,704 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 11:32:44,719 - INFO -  * Restarting with stat
+2025-01-03 11:33:44,634 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:33:45,390 - WARNING -  * Debugger is active!
+2025-01-03 11:33:45,423 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 11:34:47,809 - INFO - 127.0.0.1 - - [03/Jan/2025 11:34:47] "GET / HTTP/1.1" 200 -
+2025-01-03 11:34:48,014 - INFO - 127.0.0.1 - - [03/Jan/2025 11:34:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 11:34:48,024 - INFO - 127.0.0.1 - - [03/Jan/2025 11:34:48] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 11:34:48,024 - INFO - 127.0.0.1 - - [03/Jan/2025 11:34:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 11:34:48,098 - INFO - 127.0.0.1 - - [03/Jan/2025 11:34:48] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:34:48,104 - INFO - 127.0.0.1 - - [03/Jan/2025 11:34:48] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:34:48,110 - INFO - 127.0.0.1 - - [03/Jan/2025 11:34:48] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:34:48,112 - INFO - 127.0.0.1 - - [03/Jan/2025 11:34:48] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:37:07,902 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 11:37:07,906 - INFO - 127.0.0.1 - - [03/Jan/2025 11:37:07] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 11:42:00,638 - INFO - 127.0.0.1 - - [03/Jan/2025 11:42:00] "GET /login HTTP/1.1" 200 -
+2025-01-03 11:42:00,678 - INFO - 127.0.0.1 - - [03/Jan/2025 11:42:00] "[36mGET /static/js/login_main.js HTTP/1.1[0m" 304 -
+2025-01-03 11:42:00,682 - INFO - 127.0.0.1 - - [03/Jan/2025 11:42:00] "[36mGET /static/images/newww.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:42:00,694 - INFO - 127.0.0.1 - - [03/Jan/2025 11:42:00] "[36mGET /static/css/style_for_loginPage.css HTTP/1.1[0m" 304 -
+2025-01-03 11:42:00,767 - INFO - 127.0.0.1 - - [03/Jan/2025 11:42:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-03 11:44:40,767 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\app.py', reloading
+2025-01-03 11:44:44,056 - INFO -  * Restarting with stat
+2025-01-03 11:45:10,965 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:45:11,247 - WARNING -  * Debugger is active!
+2025-01-03 11:45:11,263 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 11:46:27,746 - INFO -  * Detected change in 'C:\\Users\\gopic\\PROJECT\\Backend\\food_recognition.py', reloading
+2025-01-03 11:46:31,497 - INFO -  * Restarting with stat
+2025-01-03 11:46:55,943 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:46:56,014 - WARNING -  * Debugger is active!
+2025-01-03 11:46:56,027 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 11:54:30,334 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:54:30,409 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 11:54:30,409 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 11:54:30,416 - INFO -  * Restarting with stat
+2025-01-03 11:55:36,082 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 11:55:36,220 - WARNING -  * Debugger is active!
+2025-01-03 11:55:36,243 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 11:55:42,197 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:42] "GET / HTTP/1.1" 200 -
+2025-01-03 11:55:42,468 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:42] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 11:55:42,469 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 11:55:42,471 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 11:55:42,567 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:42] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:55:42,572 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:42] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:55:42,574 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:42] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:55:42,580 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:42] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 11:55:51,073 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 11:55:51,075 - INFO - 127.0.0.1 - - [03/Jan/2025 11:55:51] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 12:00:07,297 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:07] "GET / HTTP/1.1" 200 -
+2025-01-03 12:00:07,472 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 12:00:07,476 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:07] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 12:00:07,481 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 12:00:07,512 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:07] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:00:07,516 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:07] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:00:07,528 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:07] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:00:07,528 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:07] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:00:21,752 - INFO - 127.0.0.1 - - [03/Jan/2025 12:00:21] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 12:26:22,173 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 12:26:22,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-03 12:26:22,470 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-03 12:26:22,485 - INFO -  * Restarting with stat
+2025-01-03 12:27:15,431 - INFO - Model loaded successfully from C:\Users\gopic\PROJECT\Backend\model\vgg16_pretrained.keras
+2025-01-03 12:27:15,557 - WARNING -  * Debugger is active!
+2025-01-03 12:27:15,621 - INFO -  * Debugger PIN: 115-152-079
+2025-01-03 12:27:27,141 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:27] "GET / HTTP/1.1" 200 -
+2025-01-03 12:27:27,441 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 12:27:27,442 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:27] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 12:27:27,442 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 12:27:27,580 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:27] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:27:27,583 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:27] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:27:27,585 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:27] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:27:27,591 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:27] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:27:34,896 - ERROR - Error during food recognition: too many values to unpack (expected 2)
+2025-01-03 12:27:34,897 - INFO - 127.0.0.1 - - [03/Jan/2025 12:27:34] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-01-03 12:42:53,251 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:53] "GET / HTTP/1.1" 200 -
+2025-01-03 12:42:53,304 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-01-03 12:42:53,307 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:53] "[36mGET /static/images/image-pen-svgrepo-com.svg HTTP/1.1[0m" 304 -
+2025-01-03 12:42:53,315 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-01-03 12:42:53,353 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:53] "[36mGET /static/images/calorie_estimation_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:42:53,363 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:53] "[36mGET /static/images/Track_image.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:42:53,380 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:53] "[36mGET /static/images/food.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:42:53,388 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:53] "[36mGET /static/images/DietaryGuidelines.jpg HTTP/1.1[0m" 304 -
+2025-01-03 12:42:55,824 - INFO - 127.0.0.1 - - [03/Jan/2025 12:42:55] "[36mGET /static/images/fruit-bowl-svgrepo-com.svg HTTP/1.1[0m" 304 -
