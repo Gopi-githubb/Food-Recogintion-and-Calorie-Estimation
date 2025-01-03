@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KnowYourCalories is a platform for tracking calorie intake and providing dietary suggestions using AI-powered food recognition and calorie estimation.">
+    <meta property="og:title" content="KnowYourCalories - Track Your Calorie Intake">
+    <meta property="og:description" content="Track your calorie intake with AI-powered food recognition and personalized dietary suggestions.">
+    <meta property="og:image" content="{{ url_for('static', filename='images/og-image.jpg') }}">
+    <meta property="og:url" content="https://www.knowyourcalories.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>KnowYourCalories.com</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/fruit-bowl-svgrepo-com.svg') }}" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <a href="#home" class="logo"><i class="fas fa-apple-alt"></i> KnowYourCalories.com</a>
+        <nav class="menu" aria-label="Main Menu">
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+            <a href="#track-calories"><i class="fas fa-utensils"></i> Track Calories</a>
+            <a href="#diet-plans"><i class="fas fa-dumbbell"></i> Diet Plans</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Upload Section -->
+    <div class="upload-container">
+        <div class="upload" id="upload-section" onclick="triggerFileInput();">
+            <input type="file" id="file-input" accept="image/*" onchange="uploadAndProcessImage(event)" style="display: none;">
+            <img class="icon" src="{{ url_for('static', filename='images/image-pen-svgrepo-com.svg') }}" alt="Upload Icon">
+            <div class="mesg">Click on the icon to choose a photo to know calorie content</div>
+        </div>
+        <div id="upload-message" style="display:none; margin-top: 20px;">
+            <p>Uploading...</p>
+        </div>
+    </div>
+
+    <!-- Display Image and Calorie Information Section -->
+    <div id="image-info" style="display:none; margin-top: 20px;">
+        <h3>Uploaded Image:</h3>
+        <img id="uploaded-image" src="" alt="Uploaded Image" style="max-width: 300px; margin-top: 10px;">
+        <p>Image Name: <span id="image-name"></span></p>
+    </div>
+
+    <!-- Calorie Estimation Result Section -->
+    <div id="result" style="display: none;">
+        <h3>Food Item: <span id="food-name"></span></h3>
+        <p>Calories per 100g: <span id="calories-per-100g"></span></p>
+        <p>Total Calories: <span id="total-calories"></span></p>
+    </div>
+
+    <!-- Submit Button Section -->
+    <div id="submit-container" style="display:none; margin-top: 20px;">
+        <button id="submit-button" onclick="submitImageForAnalysis()" class="cta-btn">Submit for Analysis</button>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <h1>Take Control of Your Health</h1>
+        <p>Track your calorie intake, recognize food items, and improve your diet today.</p>
+        <button class="cta-btn" onclick="window.location.href='/login'" aria-label="Get Started">Get Started</button>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features" id="track-calories">
+        <div class="feature">
+            <img src="{{ url_for('static', filename='images/food.jpg') }}" alt="AI-powered food recognition" loading="lazy">
+            <h3>Food Recognition</h3>
+            <p>Our AI-powered system identifies food from your images for accurate calorie counting.</p>
+        </div>
+        <div class="feature">
+            <img src="{{ url_for('static', filename='images/calorie_estimation_image.jpg') }}" alt="Calorie Estimation" loading="lazy">
+            <h3>Calorie Estimation</h3>
+            <p>Estimate the calories of your meals quickly and accurately with real-time data.</p>
+        </div>
+        <div class="feature">
+            <img src="{{ url_for('static', filename='images/DietaryGuidelines.jpg') }}" alt="Dietary Suggestions" loading="lazy">
+            <h3>Dietary Suggestions</h3>
+            <p>Receive personalized diet plans that fit your lifestyle and health goals.</p>
+        </div>
+        <div class="feature">
+            <img src="{{ url_for('static', filename='images/Track_image.jpg') }}" alt="Progress Tracker" loading="lazy">
+            <h3>Track Your Progress</h3>
+            <p>Monitor your calorie intake, nutrition, and fitness goals with ease.</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer" id="contact">
+        <p>&copy; 2024 KnowYourCalories | All Rights Reserved</p>
+        <div class="contact-us">
+            <p>If you have any questions or need assistance, feel free to contact us:</p>
+            <p>Email: <a href="mailto:KnowYourCalorie@gmail.com">KnowYourCalorie@gmail.com</a></p>
+            <p>Phone: 9949 XXXX XX</p>
+        </div>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+    <script>
+        // Trigger file input on click
+        function triggerFileInput() {
+            document.getElementById('file-input').click(); // Simulate click on hidden input element
+        }
+
+        // Handle image upload and process
+        function uploadAndProcessImage(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const formData = new FormData();
+                formData.append("file", file);
+
+                // Show upload status
+                document.getElementById('upload-message').style.display = 'block';
+                document.getElementById('upload-message').textContent = 'Uploading...';
+
+                // Send the image to the backend for processing
+                fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Display the uploaded image and calorie details
+                    if (data.food_item && data.calories_per_100g && data.total_calories) {
+                        document.getElementById('uploaded-image').src = data.image_url;  // Ensure image_url is returned from backend
+                        document.getElementById('image-name').textContent = file.name;
+                        document.getElementById('image-info').style.display = 'block';  // Show image section
+
+                        // Display food and calorie details
+                        document.getElementById('food-name').textContent = data.food_item;
+                        document.getElementById('calories-per-100g').textContent = data.calories_per_100g;
+                        document.getElementById('total-calories').textContent = data.total_calories;
+                        document.getElementById('result').style.display = 'block';  // Show result section
+
+                        // Show the submit button for further analysis
+                        document.getElementById('submit-container').style.display = 'block';  // Show submit button
+                    } else {
+                        alert("Couldn't recognize the food or calculate calories.");
+                    }
+                })
+                .catch(error => {
+                    alert('Error: ' + error);
+                })
+                .finally(() => {
+                    document.getElementById('upload-message').textContent = 'Upload Complete!';
+                });
+            }
+        }
+
+        // Submit the image for analysis (optional additional step)
+        function submitImageForAnalysis() {
+            alert("Image submitted for detailed analysis!");
+            // Additional backend logic can be triggered here
+        }
+    </script>
+</body>
+</html>

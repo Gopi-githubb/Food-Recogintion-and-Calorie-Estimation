@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password - KnowYourCalories</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_for_loginPage.css') }}">
+</head>
+<body>
+    <div class="forgot-password-container">
+        <form method="POST" action="{{ url_for('reset_password') }}">
+            <h1>Reset Your Password</h1>
+            <p>Enter your username and new password to reset it.</p>
+
+            <!-- Flash Messages for Success/Error -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <ul class="flashes">
+                    {% for category, message in messages %}
+                        <li class="flash {{ category }}">{{ message }}</li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endwith %}
+
+            <div class="form-group">
+                <input type="text" name="username" placeholder="Username" id="username" required />
+            </div>
+            <div class="form-group">
+                <input type="password" name="newPassword" placeholder="New Password" id="newPassword" required />
+            </div>
+            <div class="form-group">
+                <input type="password" name="confirmPassword" placeholder="Confirm New Password" id="confirmPassword" required />
+            </div>
+            <button type="submit">Reset Password</button>
+            <p>Remember your password? <a href="{{ url_for('login') }}">Sign In</a></p>
+        </form>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/login_main.js') }}"></script>
+</body>
+</html>
