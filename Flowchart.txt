@@ -1,1 +1,27 @@
+/project-root
+├── /Backend
+│   ├── /model
+│   │   ├── Backend\model\vgg16_pretrained.keras
+│   ├── /static
+│   │   ├── /css
+│   │   │   ├── style.css                  # CSS file for styling the website
+│   │   │   └── style_for_loginPage.css    # CSS file for login page styling
+│   │   ├── /images
+│   │   │   └── # Example image used on the frontend
+│   │   ├── /js
+│   │   │   ├── main.js                  # JS for handling interactions on the homepage
+│   │   │   └── login_main.js            # JS for handling interactions on the login page
+│   ├── /templates
+│   │   ├── index.html                  # Home page HTML
+│   │   ├── /Register
+│   │   │   ├── login.html              # Login page HTML
+│   │   │   └── forgot.html             # Password reset page HTML
+│   ├── app.py                          # Flask app entry point, handles requests
+│   ├── calorie_estimation.py           # Handles calorie estimation logic
+│   ├── food_recognition.py             # Handles food recognition logic (loads model, makes predictions)
+│   ├── load_vgg16_model.py             # Loads the VGG16 model for image recognition
+│   ├── organize_dataset.py             # Script for organizing dataset (possibly for training)
+│   ├── resize_images.py                # Script for resizing images in dataset (possibly for training)
+│   └── users.db                        # SQLite database for storing user info (login, registration)
+└── /public                             # (Removed, not needed in your current project structure)
 
