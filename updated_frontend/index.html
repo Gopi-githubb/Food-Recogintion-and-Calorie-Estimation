@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fruit-bowl-svgrepo-com.svg" type="image/x-icon">
+    <title>KnowYourCalories.com</title>
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts for Professional Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="" class="header__logo">KnowYourCalories.com</a>
+        </div>
+        <nav class="nav" id="nav-menu">
+            <ion-icon name="close-outline" class="header__close" id="close-menu"></ion-icon>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#track-calories" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+            </ul>
+        </nav>
+        <ion-icon name="menu-outline" class="header__toggle" id="toggle-menu"></ion-icon>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="file-input-container">
+                <h4 style="font-size: medium;">Upload Your Food Image</h4>
+                <label for="imageUpload" class="file-upload-label">
+                    <span class="upload-text">Choose a file</span>
+                </label>
+                <input type="file" id="imageUpload" accept="image/*" onchange="previewImage()">
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="button">Upload</button>
+        </div>
+        <div id="imagePreviewContainer" style="display: none;">
+            <h2>Uploaded Image:</h2>
+            <img id="imagePreview" src="" alt="Image Preview">
+        </div>
+        <div id="result"></div>
+        <div id="feedback" style="display: none;">
+            <h2>Feedback</h2>
+            <p>Was the prediction incorrect? Please provide the correct name of the food:</p>
+            <input type="text" id="correctFoodName" placeholder="Enter correct food name">
+            <button class="button" onclick="submitFeedback()">Submit Feedback</button>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features" id="track-calories">
+            <div class="feature">
+                <img src="static/images/food.jpg" alt="AI-powered food recognition" loading="lazy">
+                <h3>Food Recognition</h3>
+                <p>Our AI-powered system identifies food from your images for accurate calorie counting.</p>
+            </div>
+            <div class="feature">
+                <img src="static/images/calorie_estimation_image.jpg" alt="Calorie Estimation" loading="lazy">
+                <h3>Calorie Estimation</h3>
+                <p>Estimate the calories of your meals quickly and accurately with real-time data.</p>
+            </div>
+            <div class="feature">
+                <img src="static/images/DietaryGuidelines.jpg" alt="Dietary Suggestions" loading="lazy">
+                <h3>Dietary Suggestions</h3>
+                <p>Receive personalized diet plans that fit your lifestyle and health goals.</p>
+            </div>
+            <div class="feature">
+                <img src="static/images/Track_image.jpg" alt="Progress Tracker" loading="lazy">
+                <h3>Track Your Progress</h3>
+                <p>Monitor your calorie intake, nutrition, and fitness goals with ease.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer" id="contact">
+        <p>&copy; 2024 KnowYourCalories | All Rights Reserved</p>
+        <div class="contact-us">
+            <p>If you have any questions or need assistance, feel free to contact us:</p>
+            <p>Email: <a href="mailto:KnowYourCalorie@gmail.com">KnowYourCalorie@gmail.com</a></p>
+            <p>Phone: 9949 XXXX XX</p>
+        </div>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
